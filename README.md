@@ -72,7 +72,7 @@ Vibenest returns a personalized list of song recommendations with Spotify links.
 
 1.Clone the repository
 
-    git clone https://github.com/yourusername/vibenest.git
+    git clone https://github.com/Jayasree2904/vibenest.git
     cd vibenest
 
 2.Install required Python packages
