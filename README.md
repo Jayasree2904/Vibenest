@@ -1,4 +1,4 @@
-VIBENEST
+**VIBENEST**
 
 Emotion-Based Music Recommendation System
 Vibenest is an innovative web application that uses artificial intelligence to recommend music based on your emotional state. By analyzing your facial expressions through your camera or by letting you select an emoji, Vibenest suggests personalized song recommendations that match your current mood.
