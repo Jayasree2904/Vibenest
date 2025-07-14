@@ -2,13 +2,17 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 from Capture_emotion import detect_emotion as de
-
+import zipfile
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:8000"}})
 
 # Load the music dataset
+if not os.path.exists("data.csv"):
+    with zipfile.ZipFile("data.zip", 'r') as zip_ref:
+        zip_ref.extractall()
 songs_df = pd.read_csv('data.csv')
 
 def classify_song_emotion(valence, energy):
