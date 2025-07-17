@@ -5,4 +5,4 @@ deepface==0.0.75
 opencv-python==4.8.1.78
 scikit-learn==1.3.2
 numpy==1.23.5
-
+gunicorn
