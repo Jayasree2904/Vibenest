@@ -89,4 +89,4 @@ Vibenest returns a personalized list of song recommendations with Spotify links.
 
     python -m http.server 8000
 
-6.Navigate to http://localhost:8000 in your web browser
+6.Navigate to http://localhost:5000 in your web browser
